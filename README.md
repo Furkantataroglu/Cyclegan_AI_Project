@@ -1,6 +1,6 @@
-## CycleGAN NEDİR?
+## What is CycleGAN ?
 
 
-CycleGAN, iki farklı domain (örneğin at ve zebra resimleri) arasında görüntü dönüşümü yapan bir yapay zeka modelidir. Model, her iki domain için birer generatör ve ayırt edici içerir. Generatörler, bir domain'deki görüntüleri diğerine dönüştürürken, ayırt ediciler bu görüntülerin gerçek mi yoksa üretilmiş mi olduğunu ayırt eder.
+CycleGAN is an artificial intelligence model that performs image transformation between two different domains (e.g., horse and zebra images). The model contains a generator and a discriminator for each domain. While the generators transform images from one domain to the other, the discriminators distinguish whether these images are real or generated.
 
-CycleGAN, döngü tutarlılığı (cycle-consistency) kullanarak, bir görüntüyü önce diğer domain'e, sonra tekrar orijinal haline dönüştürdüğünde, başlangıçtaki haliyle tutarlı olmasını sağlar. Bu sayede, at resimlerinden zebra resimlerine ya da gündüz fotoğraflarından gece fotoğraflarına dönüşüm gibi işlemler gerçekleştirilebilir.
+CycleGAN uses cycle-consistency to ensure that an image, when transformed to the other domain and then back to its original form, remains consistent with its initial appearance. This allows transformations such as converting horse images to zebra images or day photos to night photos.
